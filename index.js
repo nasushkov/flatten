@@ -1,4 +1,4 @@
-export default flatten = (arr, result = []) => {
+const flatten = (arr, result = []) => {
   if (!Array.isArray(arr)) {
     throw new TypeError('flatten accepts only array as an argument')
   }
@@ -11,3 +11,5 @@ export default flatten = (arr, result = []) => {
 
   return result;
 }
+
+module.exports = flatten
