@@ -1,0 +1,27 @@
+{
+  "name": "flatten",
+  "version": "1.0.0",
+  "description": "Flatten array function implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasushkov/flatten.git"
+  },
+  "keywords": [
+    "flatten",
+    "array"
+  ],
+  "author": "nsushkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasushkov/flatten/issues"
+  },
+  "homepage": "https://github.com/nasushkov/flatten#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
